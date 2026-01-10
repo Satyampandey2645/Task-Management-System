@@ -27,7 +27,6 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* Mobile Hamburger */}
       <div className="md:hidden flex justify-between items-center p-4 bg-gray-900 text-white">
         <h2 className="text-xl font-bold">Task Manager</h2>
         <button onClick={toggleMenu}>
@@ -35,7 +34,6 @@ export default function Sidebar() {
         </button>
       </div>
 
-      {/* Sidebar */}
       <aside
         className={`fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-gray-900 to-gray-800 text-white p-5 z-50
           transform transition-transform duration-300
