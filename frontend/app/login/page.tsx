@@ -40,7 +40,7 @@ export default function Login() {
         onClick={handleLogin}
         className="bg-blue-600 text-white px-4 py-2 rounded"
       >
-        Login
+        {loading ? "Logging in..." : "Login"}
       </button>
 
       <a href="/register" className="mt-4 text-blue-600">
